@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Open+Sans:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
+
+  background-color: white;
+
+  height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato", sans-serif;
+}
+
+form{
+  width:80%;
+  margin:3rem auto;
+  padding:1rem 2.5rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+@media (min-width:576px) {
+  form{
+    width: 70%;
+  }
+  
+}
+.modalForm{
+  width:90%;
+  margin:3rem auto;
+  padding:1rem 2.5rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+label{
+  width:8rem;
+}
+.flexDetails{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 1rem 0;
+  border-bottom: 1px solid rgb(202, 192, 192);
+  padding:2rem 0;
+}
+.mainRow{
+  width: 100%;
+  margin: 1rem 0;
+  border-bottom: 1px solid rgb(202, 192, 192);
+  padding:2rem 0;
+}
+.flexDetail{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+ 
+}
+.nameShort{
+  font-weight: 600;
+  border-radius: 5px;
+  width:3.5rem;
+  height:3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(163, 159, 159);
+  padding:1.5rem 1.5rem;
+  margin-right:2rem;
+}
+.icon{
+  font-size: 2rem;
+  font-weight: 700;
+  border-radius: 5px;
+  width:3.5rem;
+  height:3.5rem;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  color:grey;
+  padding:1.5rem 1.5rem;
+  margin-right:2rem;
+}
+.colDetail{
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+}
+button{
+  width: 100%;
+  font-size: 1.2rem;
+  font-weight: 600;
+  background-color: rgb(4, 4, 61);
+  color:white;
+  border-radius: 5px;
+  padding:1rem;
+  text-align: center;
+}
